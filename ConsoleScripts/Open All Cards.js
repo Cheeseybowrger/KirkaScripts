@@ -1,5 +1,5 @@
 (async () => {
-  let git_base = "SheriffCarry";
+  let git_base = "Cheeseybowrger";
   //Card Open delay
   let openingdelay = 2000; //2000 = 2.0s, make it higher to be more safe. (Recently some people have experienced issues with opening cards... Higher delay could fix it)
   let cards;
@@ -27,7 +27,7 @@
   };
 
   let translations_req = await fetch(
-    `https://raw.githubusercontent.com/${git_base}/KirkaScripts/main/ConsoleScripts/microwaves.json`,
+    `https://raw.githubusercontent.com/${git_base}/KirkaScripts/refs/heads/main/ConsoleScripts/microwaves.json`,
   );
   let translations = await translations_req.json();
 
