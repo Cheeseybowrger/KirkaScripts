@@ -1,5 +1,5 @@
 (async () => {
-  let git_base = "SheriffCarry";
+  let git_base = "Cheeseybowrger";
   //Chest Open delay
   let openingdelay = 2000; //2000 = 2.0s, make it higher to be more safe. (Recently some people have experienced issues with opening chests... Higher delay could fix it)
   let chests;
@@ -7,8 +7,7 @@
   try {
     chests = customchestlist;
   } catch {
-    chests = [
-      {
+    chests = {
         chestid: "077a4cf2-7b76-4624-8be6-4a7316cf5906",
         name: "Golden",
       },
@@ -19,6 +18,10 @@
       {
         chestid: "71182187-109c-40c9-94f6-22dbb60d70ee",
         name: "Wood",
+      },
+      {
+        chestid: "ccf1dc3a-099b-4f9c-af5b-bc7136530a77",
+        name: "Halloween",
       },
     ];
   }
@@ -34,7 +37,7 @@
   };
 
   let translations_req = await fetch(
-    `https://raw.githubusercontent.com/${git_base}/KirkaScripts/main/ConsoleScripts/microwaves.json`,
+    `https://raw.githubusercontent.com/${git_base}/KirkaScripts/refs/heads/main/ConsoleScripts/microwaves.json`,
   );
   let translations = await translations_req.json();
 
