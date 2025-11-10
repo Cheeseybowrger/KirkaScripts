@@ -7,7 +7,9 @@
   try {
     chests = customchestlist;
   } catch {
-    chests = {
+    // **FIXED SYNTAX: This is now a correctly defined array of objects**
+    chests = [
+      {
         chestid: "077a4cf2-7b76-4624-8be6-4a7316cf5906",
         name: "Golden",
       },
@@ -21,7 +23,7 @@
       },
       {
         chestid: "ccf1dc3a-099b-4f9c-af5b-bc7136530a77",
-        name: "Halloween",
+        name: "Halloween",
       },
     ];
   }
