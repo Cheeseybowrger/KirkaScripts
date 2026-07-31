@@ -1,12 +1,12 @@
 {
-  "inventory": "wmnwWMN",
-  "openChest": "wmnwWNM",
-  "openCharacterCard": "wWMnwNWm",
-  "rarity": "wnMwWmWN",
-  "PARANORMAL": "wmWNwWMn",
-  "MYTHICAL": "wMWNmwW",
-  "LEGENDARY": "wmnNM",
-  "EPIC": "wwMWWnNm",
-  "RARE": "wwMWWnN",
-  "COMMON": "wnMwNm"
+  "inventory": "wmnwWNMW",
+  "openChest": "wmnwWWMN",
+  "openCharacterCard": "wWMnwNW",
+  "rarity": "wnMNw",
+  "PARANORMAL": "wmWNwWM",
+  "MYTHICAL": "wMWwnNW",
+  "LEGENDARY": "wmnNwMWW",
+  "EPIC": "wwMmWnW",
+  "RARE": "wwMmWWnN",
+  "COMMON": "wnMwNW"
 }
